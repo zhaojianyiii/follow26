@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #div0{
+            width: 500px;
+            height: 500px;
+            position: relative;
+            border:1px transparent;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background: transparent;
+            border: 1px solid pink;
+            display: inline-block;
+            margin: -3px;
+            z-index: position;
+        }
+    
+        #div1{
+            display: inline-block;
+
+        }
+        div:hover{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div id="div0">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </div>
+</body>
+</html>
